@@ -1,0 +1,41 @@
+h2,
+h3 {
+  color: var(--color-whiteish);
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-purple);
+  color: var(--color-dark-gray);
+}
+
+.loginForm input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 300px;
+}
+
+.loginForm button {
+  background-color: var(--color-whiteish);
+  color: var(--color-dark-gray);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.loginForm button:hover {
+  background-color: var(--color-hover-purple);
+}
+
+.errorMessage {
+  color: red;
+}

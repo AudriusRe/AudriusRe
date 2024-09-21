@@ -1,0 +1,48 @@
+.registrationsContainer {
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  height: 80vh;
+  background-color: var(--color-whiteish);
+  overflow-y: auto;
+  padding: 10px;
+  padding-bottom: 10vh;
+}
+
+.registrationsContainer table {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.registrationsContainer th,
+.registrationsContainer td {
+  padding: 10px;
+  text-align: left;
+}
+
+.registrationsContainer tr {
+  border-radius: 5px;
+}
+
+.registrationsContainer th,
+tr:nth-child(even) {
+  background-color: var(--color-light-purpleish);
+}
+
+.shortTh {
+  width: 5px;
+}
+
+.registrationsContainer button {
+  background-color: transparent;
+  color: var(--color-dark-gray);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.registrationsContainer button:hover {
+  background-color: var(--color-light-purpleish);
+}

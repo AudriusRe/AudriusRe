@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+}
+
+div {
+  border-radius: 80px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+  position: absolute;
+  transition: background-color 2s, transform 0.5s;
+}
+
+.first {
+  background-color: rgb(255, 0, 76);
+  height: 55vh;
+  width: 55vh;
+  animation: roundhouse 10s infinite;
+}
+
+.first:hover {
+  background-color: purple;
+}
+
+@keyframes roundhouse {
+  0% {
+    transform: rotate(0deg);
+  }
+  8% {
+    transform: rotate(30deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.second {
+  background-color: rgb(255, 0, 255);
+  height: 45vh;
+  width: 45vh;
+  animation: roundhouse2 8s infinite;
+}
+
+.second:hover {
+  background-color: purple;
+}
+
+@keyframes roundhouse2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.third {
+  background-color: rgb(248, 55, 135);
+  height: 35vh;
+  width: 35vh;
+  animation: roundhouse 5s infinite;
+}
+
+.third:hover {
+  background-color: purple;
+}
+
+.fourth {
+  background-color: rgb(109, 52, 99);
+  height: 25vh;
+  width: 25vh;
+  animation: roundhouse2 3s infinite;
+}
+
+.fourth:hover {
+  background-color: purple;
+}
+
+.fifth {
+  background-color: rgb(238, 106, 29);
+  height: 15vh;
+  width: 15vh;
+  animation: roundhouse 2s infinite;
+  border-radius: 50px;
+}
+
+.fifth:hover {
+  background-color: purple;
+}

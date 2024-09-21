@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;600&display=swap");
+
+:root {
+  --color-purple: #6a0dad;
+  --color-purpleish: #a121fc79;
+  --color-whiteish: #ffffff;
+  --color-dark-gray: #333;
+  --color-light-gray: #e0e0e0;
+  --color-light-purpleish: #f2bcff3b;
+  --color-hover-purple: #c895ff;
+  --color-light-border: #ddd;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+button {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
